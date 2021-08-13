@@ -1,15 +1,15 @@
 {
-  "name": "@my-org/server",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "Server app that uses the @octo-org/octo-app package",
+  "description": "",
   "main": "index.js",
-   "scripts": {
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"},
+    "start": "nodemon server.js"
+  },
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
-    "@octo-org/octo-app": "1.0.0"
     "express": "^4.17.1",
     "monoogse": "^5.12.2"
   }
